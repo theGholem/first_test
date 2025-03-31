@@ -5,7 +5,7 @@ import shutil
 
 # Vérifier la taille du terminal
 cols, rows = shutil.get_terminal_size()
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+{}[]|:;<>?/\\"
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+{}[]|:THE GOAT ;<>?/\\"
 
 # Créer une liste de colonnes avec des positions aléatoires
 matrix = [random.randint(0, rows) for _ in range(cols)]
